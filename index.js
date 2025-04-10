@@ -1,4 +1,6 @@
-document.getElementById("fileInput").addEventListener("change", function () {
+let lalu = document.getElementById("fileInput");
+
+    lalu.addEventListener("change", function () {
     const file = this.files[0];
     const infoBox = document.getElementById("fileInfo");
     if (!file) {
