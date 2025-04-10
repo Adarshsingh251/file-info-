@@ -7,7 +7,7 @@ let lalu = document.getElementById("fileInput");
     infoBox.innerHTML = "No file selected.";
     return;
     }
-    const fileSize = (file.size / 1024).toFixed(2); // size in KB
+    const fileSize = (file.size / 1024).toFixed(2); 
     const lastModified = new Date(file.lastModified).toLocaleString();
     let fileDetails = `
     <p><strong>Name:</strong> ${file.name}</p>
